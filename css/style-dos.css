@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 16px; */
+}
+
+body {
+    height: 100dvh;
+    width: 100dvw;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+}
+.cantidad-main{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    padding: 12px;
+    font-size: 15px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    width: 90px;
+    margin-left: 12px;
+}
+ #mainCantidad{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+} 
+label{
+    font-size: 2rem;
+    font-weight: bold;
+}
+button{
+    padding: 12px 18px;
+    font-size: 15px;
+    background-color: #2a2a2b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* display: inline-flex; */
+    width: fit-content;
+}
+.resultado{
+    margin-top: 25px;
+    font-size: 19px;
+    width: 420px;
+}
+.parrafo{
+    /* background-color: #d3d3d3; */
+    color: #50507e;
+    font-size: 22px;
+    text-align: left;
+    padding: 12px;
+}
